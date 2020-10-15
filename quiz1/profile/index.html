@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Emmanuel's Digital Abode</title>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="../stylesheet.css" rel="stylesheet">
+        <link rel="icon" href="../favicon.png" type="image/png">
+        <script src="../jquery-3.5.1.min.js"></script>
+    </head>
+    <body onresize="resize()">
+        <div id="navbar">
+            <a class="nav" href="../">Home</a>
+            <a class="nav active" href="#">Profile</a>
+            <a class="nav" href="../hometown/">Hometown</a>
+            <a class="nav" href="../food/">Food</a>
+            <a class="nav" href="../tourism/">Tourism</a>
+        </div>
+        <div id="navbar-mobile">
+            <img src="../menu.png"/>
+            <a class="nav-mobile" href="../">Home</a>
+            <a class="nav-mobile active" href="#">Profile</a>
+            <a class="nav-mobile" href="../hometown/">Hometown</a>
+            <a class="nav-mobile" href="../food/">Food</a>
+            <a class="nav-mobile" href="../tourism/">Tourism</a>
+        </div>
+        <div class="content" id="pr-content">
+            <div class="pr-subcontent" id="pr-desc">
+                <h3>&mdash; Hi, I am</h3>
+                <h1>Noel</h1>
+                <h2>Aspiring software engineer, student at ITS</h2>
+                <p>Some people see computers as productivity tools. Others see it as accesories. To me, they're blank canvases waiting to be discovered. When you code, you have all the power to give function to an otherwise inanimate metal box. Mind over matter, literally.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="2">Business Information</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Full Name</td>
+                            <td>Emmanuel Maximus Yohanes</td>
+                        </tr>
+                        <tr>
+                            <td>Location</td>
+                            <td>Surabaya, Indonesia</td>
+                        </tr>
+                        <tr>
+                            <td>Place / DOB</td>
+                            <td>Surabaya / August 29<sup>th</sup>, 2000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pr-subcontent" id="pr-subphoto">
+                <img id="pr-photo" src="profile.png"/>
+                <img id="pr-photo-1" src="profile.png"/>
+                <img id="pr-photo-2" src="profile.png"/>
+            </div>
+        </div>
+        <div class="pr-subcontent" id="pr-footbar"></div>
+        <div id="sidebar">
+            <a class="sidenav" href="http://linkedin.com/in/emmanuelyohanes" target="_blank"><img src="linkedin.png"/></a>
+            <a class="sidenav" href="http://instagr.am/emmanuel.maximus" target="_blank"><img src="instagram.png"/></a>
+            <a class="sidenav" href="mailto:geofanny.emmanuel@gmail.com"><img src="mail.png"/></a>
+        </div>
+        <script src="../app.js"></script>
+    </body>
+</html>
